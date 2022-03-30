@@ -6,6 +6,16 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>maria_small.ico</ApplicationIcon>
+    <AssemblyName>Maria Chat</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="maria_small.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
 
 </Project>

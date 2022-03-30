@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MariaChat.Server", "MariaCh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MariaChat.Client", "MariaChat.Client\MariaChat.Client.csproj", "{2482FA47-42B3-498A-ADBD-19B6368E7FD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maria.Assets", "Maria.Assets\Maria.Assets.csproj", "{DBBCE832-15EC-4E32-AC3A-845823A5E2F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{2482FA47-42B3-498A-ADBD-19B6368E7FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2482FA47-42B3-498A-ADBD-19B6368E7FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2482FA47-42B3-498A-ADBD-19B6368E7FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBBCE832-15EC-4E32-AC3A-845823A5E2F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBCE832-15EC-4E32-AC3A-845823A5E2F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBCE832-15EC-4E32-AC3A-845823A5E2F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBCE832-15EC-4E32-AC3A-845823A5E2F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
