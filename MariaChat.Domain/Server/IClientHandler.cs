@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MariaChat.Domain.Client
+namespace MariaChat.Domain.Server
 {
-    public interface IClientChatService
+    public interface IClientHandler
     {
+        public IClientHandler GetInstance();
     }
 }

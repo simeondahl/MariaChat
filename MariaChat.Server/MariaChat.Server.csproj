@@ -13,4 +13,8 @@
     <Content Include="maria_small.ico" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MariaChat.Infrastructure\MariaChat.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

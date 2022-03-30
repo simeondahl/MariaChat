@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MariaChat.Domain.Server
+namespace MariaChat.Infrastructure.Server
 {
-    public interface IServerChatService
+    internal class MessageHandler
     {
     }
 }
