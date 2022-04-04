@@ -1,12 +1,4 @@
-﻿using MariaChat.Infrastructure;
-using MariaChat.Infrastructure.Server;
+﻿using MariaChat.Application.Server;
+var chatService = new ChatService(3535);
+chatService.StartChatService();
 
-try
-{
-    ServiceHandler.RegisterService<ChatService>();
-    Console.WriteLine("Successfully registered the ChatService...");
-}
-catch (Exception ex)
-{
-    Console.WriteLine(ex.Message);
-}

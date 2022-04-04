@@ -8,6 +8,13 @@ namespace MariaChat.Domain.Server
 {
     public interface IClientHandler
     {
-        public IClientHandler GetInstance();
+        // Events
+        public event OnClientConnected ClientConnected;
+        
+        // Functions
+        public void StartListen(int port);
+
+        // Delegates
+        public delegate void OnClientConnected(string id);
     }
 }

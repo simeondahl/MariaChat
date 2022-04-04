@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MariaChat.Domain;
 
-namespace MariaChat.Infrastructure
+namespace MariaChat.Application
 {
     /// <summary>
     /// This service handler can be used to register instances of types and then call them again
@@ -28,7 +28,7 @@ namespace MariaChat.Infrastructure
             var instance = Activator.CreateInstance(serviceType); ;
 
             if (instance == null)
-                throw new Exception($"[ServiceHandler] Could not register '{serviceType}' for some reason.");
+                throw new Exception($"Could not register '{serviceType}'");
 
             Services.TryAdd(serviceType, instance);
         }
@@ -47,7 +47,7 @@ namespace MariaChat.Infrastructure
             Services.TryGetValue(serviceType, out var service);
 
             if (service == null)
-                throw new Exception($"[ServiceHandler] The service '{serviceType}' you are trying to request is not registered.");
+                throw new Exception($"'{serviceType}' is not registered.");
 
             return (T)service;
         }

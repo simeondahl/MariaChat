@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MariaChat.Domain.Server;
 
-namespace MariaChat.Infrastructure.Client
+namespace MariaChat.Application.Server
 {
-    public class ChatService : Domain.Client.IChatService
+    public class MessageHandler : IMessageHandler
     {
-
     }
 }
